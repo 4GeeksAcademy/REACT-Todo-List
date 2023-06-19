@@ -30,7 +30,11 @@ input{
 
 i{
     color:brown;
+    display: block;
     float:right;
-    
+    visibility: hidden;
 }
 
+ li:hover >i{
+    visibility: visible;
+}
